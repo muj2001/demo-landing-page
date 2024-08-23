@@ -166,3 +166,32 @@ button.sign-up {
     color: rgb(113, 120, 131);
     font-weight: 750;
 }
+
+/* Section 3 */
+
+.section-3 {
+    background-color: #e5e7eb;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 350px;
+    /* border: 2px green solid; */
+}
+
+.quote {
+    font-size: 44px;
+    font-weight: 1;
+    font-style: italic;
+    color: #697485;
+    /* border: 2px red solid; */
+}
+
+.quote-author {
+    /* border: 2px blue solid; */
+    color:#32383f;
+    font-size: 30px;
+    font-weight: 800;
+    align-self: flex-end;
+}
