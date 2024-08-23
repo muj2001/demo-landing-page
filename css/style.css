@@ -13,7 +13,7 @@ body {
 
 .section-1 {
     background-color: #1f2937;
-    padding: 24px 300px;
+    padding: 24px 16vw;
     min-height: 75vh;
     display: flex;
     flex-direction: column;
@@ -101,6 +101,7 @@ button.sign-up {
     font-size: 24px;
     border-radius: 10px;
     margin-right: auto;
+    border: none;
 }
 
 /* Section 2 */
@@ -176,7 +177,7 @@ button.sign-up {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px 350px;
+    padding: 24px 23vw;
     /* border: 2px green solid; */
 }
 
@@ -194,4 +195,61 @@ button.sign-up {
     font-size: 30px;
     font-weight: 800;
     align-self: flex-end;
+}
+
+/* Section 4 */
+
+.section-4 {
+    min-height: 40vh;
+    display: flex;
+    padding: 10vh 15vw;
+    /* border: 2px solid red; */
+}
+
+.section-4 .sign-up {
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.sign-up-card {
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    /* border: 2px red solid; */
+    flex-wrap: wrap;
+    padding: 3vh 8vw;
+}
+
+.sign-up-prompt {
+    margin-right: auto;
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.sign-up-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sign-up-direct {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer {
+    min-height: 15vh;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 20px;
 }
